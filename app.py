@@ -51,11 +51,11 @@ if st.button("🔍 Fetch my visits"):
                 st.info("No visit summary available for today.")
             else:
                 # --- Short Summary ---
-                short_match = re.search(r"Short Summary.*?:\s*(.+)", summary_text, re.DOTALL)
-                short_summary = short_match.group(1).strip() if short_match else "No short summary found."
+                # short_match = re.search(r"Short Summary.*?:\s*(.+)", summary_text, re.DOTALL)
+                # short_summary = short_match.group(1).strip() if short_match else "No short summary found."
 
-                st.subheader("⚡ Quick Summary")
-                st.success(short_summary)
+                # st.subheader("⚡ Quick Summary")
+                # st.success(short_summary)
 
                 # --- Monthly Orders & Revenue ---
                 # st.subheader("📊 Recent 6 Months Performance")
