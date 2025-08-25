@@ -7,7 +7,7 @@ import re
 # -----------------------
 # CONFIG
 # -----------------------
-API_URL = "https://udayshankar3008.app.n8n.cloud/webhook/farmer/account"
+API_URL = "https://uday3008.app.n8n.cloud/webhook/farmer/account"
 API_KEY = "abcdefghijk123456789"  # Keep in .env or secrets file ideally
 
 # -----------------------
