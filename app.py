@@ -22,7 +22,7 @@ st.caption("Orange Health Labs • Pilot UI — select your name to fetch today'
 # -----------------------
 farmer_name = st.selectbox(
     "Select your name",
-    ["pragati.pandey", "ajay.kumar", "neha.sharma"]  # example names
+    ["pragati.pandey", "chirivellasai.deepthika"]  # example names
 )
 
 today = date.today().strftime("%d/%m/%Y")
